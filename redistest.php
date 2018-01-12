@@ -1,7 +1,7 @@
 <?php
 $redis = new Redis();
 $redis->connect("127.0.0.1",6379);
-$redis->auth("password");
+$redis->auth("nazeeriscool");
 
 // set and get Key
 $redis->set('key01', 'value01');
